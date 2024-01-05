@@ -1,0 +1,124 @@
+*{
+    font-size:100%;
+    text-decoration: none;
+    color: blanchedalmond;
+    margin:0%;
+    padding:0%;
+}
+
+body{
+    background-image: url("pictures/back.jpg");
+    background-repeat:no-repeat;
+    background-position:40%;
+}
+
+.content{
+    width:70%;
+    margin:2rem;
+    padding:5rem 2rem 5rem 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.intro{
+    line-height: 3rem;
+}
+
+#intro .h1{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+span{
+    color:rgb(247, 138, 196);
+}
+
+#intro .span{
+    color:rgb(247, 138, 196);
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#intro .h2{
+    line-height: 2rem;
+    font-size: 2rem;
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:2rem 0 0 0;
+}
+
+img{
+    width:80%;
+    height:auto;
+    padding:5rem 0 5rem 0;
+}
+
+#three .c1{
+    padding:3rem 0 3rem 0;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.button{
+    background-color: black;
+    color:blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+.button:hover{
+    background-color: rgb(247, 138, 196);
+    color:black;
+}
+
+#connect{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#five .box{
+    border: 1px solid rgb(247, 138, 196);
+    display: inline-block;
+    padding:2rem;
+    margin:4rem;
+    background-image:linear-gradient(blanchedalmond 0%, blanchedalmond 50%,rgb(227, 180, 110) 50%,rgb(227, 180, 110) 100%);
+    width:30%;
+    justify-content: center;
+    align-items: center;
+}
+
+#five .h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#five .a{
+    color:blueviolet;
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:2rem;
+}
+
+a:active, i:active, #five .a:active{
+    color:hotpink;
+}
+
+a:visited ,i:visited,  #five .a:visited{
+    color:rgb(175, 123, 175);
+}
+
+a:hover ,i:hover,  #five .a:hover{
+    color:rgb(247, 138, 196);
+}
+
+#five .a:active{
+    color:rgb(231, 159, 195);
+}
+
+#five .a:visited{
+    color:rgb(100, 33, 100);
+}
+
+#five .a:hover{
+    color:hotpink;
+}

@@ -1,0 +1,167 @@
+* {
+    font-size: 100%;
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+#topLinks {
+    list-style-type: none;
+    position: fixed;
+    overflow: hidden;
+    background-color: darkslateblue;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#topLinks .li {
+    float: left;
+    width: auto;
+}
+
+#topLinks .li a {
+    color: antiquewhite;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#topLinks .li a:visited {
+    color: coral;
+}
+
+#topLinks .li a:hover {
+    color: black;
+    background-color: aqua;
+}
+
+#topLinks::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    padding: 3rem 1rem 3rem 1rem;
+    background-color: black;
+}
+
+.main h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: hotpink;
+}
+
+.navigate {
+    width: 18%;
+    position: fixed;
+    overflow: auto;
+}
+
+.ddc {
+    list-style-type: none;
+}
+
+.ddc a {
+    text-decoration: none;
+    display: block;
+    padding: 0.2rem;
+}
+
+.ddc a:visited {
+    color: coral;
+}
+
+.ddc a:hover {
+    color: black;
+    background-color: rgb(241, 129, 185);
+}
+
+.main {
+    width: 75%;
+    float: right;
+}
+
+.main div {
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.main h3 {
+    font-style: oblique;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(250, 155, 203);
+}
+
+#limerick {
+    background-image: url("pictures/clock.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#stars {
+    background-image: url("pictures/star.jpg");
+    opacity: 1;
+}
+
+#butterfly {
+    background-image: url("pictures/butterfly.jpg");
+    background-position: center left;
+}
+
+#autumn {
+    background-image: url("pictures/autumn.jpg");
+    background-position: center right;
+    background-size: cover;
+}
+
+#rains {
+    background-image: url("pictures/rain.jpg");
+    background-position: bottom center;
+}
+
+#saveTrees {
+    background-image: url("pictures/tree.jpg");
+}
+
+#krishna {
+    background-image: url("pictures/girl.jpg");
+    background-size: cover;
+}
+
+#Winter {
+    background-image: url("pictures/frozen.jpg");
+    background-position: center right;
+}
+
+#Winter p {
+    color: black;
+}
+
+#Winter h3 {
+    color: rgb(239, 5, 122);
+}
+
+#blindfold {
+    background-image: url("pictures/blindfold.jpg");
+    background-size: cover;
+}
+
+#mirror {
+    background-image: url("pictures/mirror.jpg");
+    background-size: cover;
+}
+
+#connect a:visited,
+i:visited {
+    color: coral;
+}
+
+#connect a:hover,
+i:hover {
+    color: rgb(248, 144, 196);
+}
